@@ -1,0 +1,10 @@
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=eks123
+  
+namespace: eksns
+
+resources:
+  - mysql-deployment.yml 
+  - drupal-deployment.yml
